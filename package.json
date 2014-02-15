@@ -1,0 +1,17 @@
+{ "name": "simplereact"
+, "description": "SimpleReact reactive programming using datasources"
+, "keywords": [ "reactive", "javascript", "datasource" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleReact.git" }
+, "main": "./lib/simplereact.js"
+, "engines": { "node": ">= 0.6.0 && < 0.13.0" }
+, "scripts": {
+    "test": "simpleunit test"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "simpleunit": "0.0.2"
+  }
+}
